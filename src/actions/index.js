@@ -10,6 +10,7 @@ export const DECREMENT = 'DECREMENT';
 // is left to the reducer(s).
 
 export const increment = () => {
+  console.log('working')
  return{
    type: INCREMENT,
    payload: 1
@@ -17,6 +18,7 @@ export const increment = () => {
 };
 
 export const decrement = () => {
+  console.log('Working!!!!!')
   return{
     type: DECREMENT,
     payload: -1
